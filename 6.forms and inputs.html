@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--forms-->
+    <form action="" method="" autocomplete="on">
+      <h2>text input</h2>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="firstname" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" />
+
+      <h1>radio button</h1>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">female</label>
+
+      <h1>checkboxes</h1>
+      <input type="checkbox" id="email" name="getemail" />
+      <label for="email">email</label>
+      <input type="checkbox" id="sms" name="recievesms" />
+      <label for="sms">sms</label>
+
+      <h1>submit button</h1>
+      <input type="submit" value="submit" />
+    </form>
+    <hr />
+
+    <!--other form elements-->
+    <!--select options-->
+
+      <label for="brands">Choose a brand:</label>
+      <select id="brands" name="brands" ><!--add size="2" multiple-->
+        <option value="samsung">samsung</option>
+        <option value="apple">apple</option>
+        <option value="sony" selected>sony</option>
+        <option value="LG">LG</option>
+      </select>
+    </form>
+    <br />
+    <!--fieldset-->
+    <form>
+      <fieldset>
+        <legend>comment:</legend>
+        <label for="cmnt">your comment:</label><br />
+        <textarea name="comment" id="cmnt" cols="30" rows="10">
+      write down here</textarea
+        >
+        <button type="button">send comment</button>
+      </fieldset>
+    </form>
+    <br /><br /><br />
+
+    <!--data lists-->
+    <form action="">
+      <input list="jobs" type="text" name="job" />
+      <input type="submit" />
+      <datalist id="jobs">
+        <option value="programmer">programmer</option>
+        <option value="worker">worker</option>
+        <option value="dentist">dentist</option>
+        <option value="yourwork">yourwork</option>
+      </datalist>
+    </form>
+    <br />
+    <hr />
+    <br />
+
+    <!--all the input types-->
+    <input type="text" /><br /><br />
+    <input type="checkbox" /><br /><br />
+    <input type="radio" /><br /><br />
+    <input type="button" value="click" /><br /><br />
+    <input type="color" /><br /><br />
+    <input type="date" /><br /><br />
+    <input type="time" /><br /><br />
+    <input type="week" /><br /><br />
+    <input type="datetime-local" /><br /><br />
+    <form>
+      <input type="email" />
+      <input type="submit" />
+      <input type="reset" /><br /><br />
+    </form>
+    <br /><br />
+    <input type="file" /> <br /><br />
+    <input type="hidden" /><br /><br />
+    <input type="month" /><br /><br />
+    <input type="number" min="" max="" value="" /><br /><br />
+    <input type="password" /><br /><br />
+    <input type="range" /><br /><br />
+    <input type="search" /><br /><br />
+    <input type="tel" /><br /><br />
+    <input type="url" /><br /><br />
+
+    <br />
+    <hr />
+    <br />
+
+    <!--input attributes-->
+    <input type="text" id="fname" name="fname" value="John" /><br /><br />
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+      value="John"
+      readonly
+    /><br /><br />
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+      value="John"
+      disabled
+    /><br /><br />
+    <input type="text" id="pin" name="pin" size="4" /><br /><br />
+    <input type="text" id="fname" name="fname" size="50" /><br /><br />
+    <input type="password" id="pin" name="pin" maxlength="4" /><br /><br />
+    <input
+      type="number"
+      id="quantity"
+      name="quantity"
+      min="1"
+      max="5"
+    /><br /><br />
+    <input
+      type="date"
+      id="datemin"
+      name="datemin"
+      min="2000-01-02"
+    /><br /><br />
+    <input type="file" id="files" name="files" multiple /><br /><br />
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+      placeholder="your name"
+    /><br /><br />
+    <input type="email" id="username" name="username" required /><br /><br />
+    <input type="number" id="points" name="points" step="3" /><br /><br />
+    <input
+      type="text"
+      id="fname"
+      name="fname"
+    /><br /><!--add autofocus attribute yourself-->
+    <form action="/action_page.php" autocomplete="on"></form>
+  </body>
+</html>
