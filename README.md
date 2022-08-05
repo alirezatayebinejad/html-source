@@ -19,4 +19,3 @@ in this repository you will see almost every HTML codes classified in category f
 
 ## :heavy_check_mark: License
 free for everyone to use in any good purposes :heart:
-
